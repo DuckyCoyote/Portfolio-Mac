@@ -1,0 +1,39 @@
+.contactme {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  padding: 40px;
+}
+
+.btn {
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  background: white;
+  padding: 0.3rem 3.4rem;
+  border: 3px solid black;
+  margin-right: 2.6rem;
+  box-shadow: 0 0 0 black;
+  transition: all 0.2s;
+}
+
+.btn:last-child {
+  margin: 0;
+}
+
+.btn:hover {
+  box-shadow: 0.4rem 0.4rem 0 black;
+  transform: translate(-0.4rem, -0.4rem);
+}
+
+.btn:active {
+  box-shadow: 0 0 0 black;
+  transform: translate(0, 0);
+}
+
+@media (max-width: 790px) {
+  .contactme {
+    flex-direction: column;
+    align-items: center;
+  }
+}

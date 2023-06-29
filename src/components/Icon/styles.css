@@ -1,0 +1,22 @@
+.icon-element {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 96px;
+  height: 96px;
+  cursor: pointer;
+}
+
+.icon-image{
+  display: flex;
+  justify-content: center;
+}
+
+.icon-element:hover {
+  background: rgba(0, 128, 255, 0.3);
+  border-radius: 10px;
+}
+
+.folder-icon {
+  width: 100px;
+}

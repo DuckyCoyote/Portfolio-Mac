@@ -1,0 +1,52 @@
+/*CONTENT*/
+
+.content-title{
+  font-family: var(--font-game-press);
+  font-size: 40px;
+  margin: 10px;
+}
+
+.educacion-title, .resumen-title, .competencias-title, .experiencia-title{
+  font-size: 25px;
+  font-family: var(--font-game-press);
+}
+
+.contenedor{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  max-width: 1200px;
+}
+::-webkit-scrollbar {
+  display: none;
+  width: 12px;
+}
+
+.competencias-contenedor ul li{
+  list-style: circle;
+}
+
+.competencias-lista{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.experiancia-lista{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.experiancia-lista li{
+  text-align: justify;
+}
+
+@media(max-width: 1000px){
+  .contenedor{
+    width: 100%;
+  } 
+  .competencias-lista{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

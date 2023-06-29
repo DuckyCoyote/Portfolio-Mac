@@ -1,0 +1,7 @@
+.container-css {
+  display: flex;
+  flex-direction: column;
+  background-image: url("./assets/background6.jpg");
+  width: 100vw;
+  height: 100vh;
+}

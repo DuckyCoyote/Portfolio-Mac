@@ -1,0 +1,71 @@
+/*WINDOW*/
+
+.window {
+  background-color: #fff;
+  border-radius: 10px;
+  border: solid 2px;
+  font-family: var(--font-game-monda);
+  width: 100%; /*1300px*/
+  height: 600px; /*700px*/
+  box-shadow: 5px 1px 17px 4px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 5px 1px 17px 4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 1px 17px 4px rgba(0, 0, 0, 0.75);
+}
+
+.window-toolbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #d6d6d6;
+  padding: 8px;
+  border-radius: 8px 8px 0 0;
+  overflow: hidden;
+}
+
+.window-botones {
+  display: flex;
+}
+
+.window-title {
+  text-align: center;
+  font-family: var(--font-game-play);
+  font-weight: bold;
+  margin: 0 0 0 -74px;
+}
+
+.window-content {
+  display: flex;
+  justify-content: center;
+  height: 93.5%;
+  overflow-y: scroll;
+  padding: 20px;
+}
+
+
+.folder-window {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 1000px) {
+  .window-content {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 450px) {
+  .window{
+    width: 390px;
+  }
+  .window-content {
+    width: 390px;
+    height: 500px;
+  }
+}
+
+@media (max-width: 400px) {
+  .window-content {
+    width: 390px;
+    height: 500px;
+  }
+}
