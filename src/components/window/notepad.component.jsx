@@ -18,13 +18,13 @@ export default function NotePad() {
         </div>
       </div>
       <div className="educacion">
-        <h2 className="educacion-title font-bold text-center m-4">Educación</h2>
+        <h2 className="educacion-title">Educación</h2>
         <h3 className="text-xl">Universidad Nacional Autonoma De Mexico</h3>
         <p>Ingenieria en Computacion</p>
         <p>Estudiante de Universidad desde el año 2020</p>
       </div>
       <div className="resumen">
-        <h2 className="resumen-title font-bold text-center m-4">Resumen</h2>
+        <h2 className="resumen-title">Resumen</h2>
         <p className="text-justify">
           Como desarrollador web fullstack con experiencia en React y Node,
           cuento con un amplio conjunto de competencias que me permiten crear
@@ -36,7 +36,7 @@ export default function NotePad() {
         </p>
       </div>
       <div className="competencias">
-        <h2 className="competencias-title font-bold text-center m-4">
+        <h2 className="competencias-title">
           Competencias
         </h2>
         <div className="competencias-contenedor">
@@ -54,7 +54,7 @@ export default function NotePad() {
         </div>
       </div>
       <div className="experiencia">
-        <h2 className="experiencia-title font-bold text-center m-4">
+        <h2 className="experiencia-title">
           Experiencia
         </h2>
         <div className="experiencia-contenedor">

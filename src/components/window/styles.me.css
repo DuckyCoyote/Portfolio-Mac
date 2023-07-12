@@ -1,8 +1,22 @@
+.contenido-me{
+  height: 100%;
+}
+
 .contactme {
   display: flex;
-  align-items: center;
-  max-width: 1200px;
-  padding: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.contact-title{
+  font-family: var(--font-game-press);
+  font-size: 4dvw;
+}
+
+.contactme > * {
+  margin-bottom: 20px;
 }
 
 .btn {
@@ -33,6 +47,21 @@
 
 @media (max-width: 790px) {
   .contactme {
+    align-items: center;
+    height: auto;
+  }
+}
+
+@media(max-width:450px){
+  .contenido-me{
+    width: 250px;
+  } 
+  .contact-title{
+    font-size: 30px;
+  }
+
+  .imagenes-me{
+    display: flex;
     flex-direction: column;
     align-items: center;
   }

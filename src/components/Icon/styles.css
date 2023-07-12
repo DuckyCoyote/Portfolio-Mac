@@ -2,14 +2,16 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 96px;
-  height: 96px;
+  align-items: center;
+  width: 100px;
+  height:100px;
   cursor: pointer;
 }
 
 .icon-image{
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 .icon-element:hover {
@@ -19,4 +21,12 @@
 
 .folder-icon {
   width: 100px;
+}
+
+
+@media(max-width: 350px){
+  .icon-element {
+    min-width: 40px;
+    width: 100%;
+  }
 }

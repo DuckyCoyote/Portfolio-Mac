@@ -39,7 +39,7 @@ export default function Escritorio() {
     <div className="escritorio">
       <div className="escritorio-iconos">
         <Icon
-          name="Contact - Me"
+          name="Contact"
           type="escritorio"
           icon={contact}
           funcion={handleMeOpen}
@@ -57,9 +57,10 @@ export default function Escritorio() {
           funcion={handleCvOpen}
         />
       </div>
+      
       <div className="escritorio-window">
         <Window
-          windowTitle="Portfolio"
+          windowTitle="Contact - Me"
           content={<Me />}
           typeWindow="notepad"
           visible={meVisible}

@@ -11,9 +11,9 @@ export default function Me() {
   return (
     <div className="contactme">
       <img src={boy} alt="gif boy 8bits" className="w-60 h-80" />
-      <div className="">
+      <div className="contenido-me">
         <div className="contact text-center">
-          <h2 className="content-title">Contact Me</h2>
+          <h2 className="contact-title">Contact Me</h2>
           <p>Alejandro Daniel Cruz Hernandez</p>
           <div className="social-links flex flex-col">
             <a
@@ -39,13 +39,13 @@ export default function Me() {
             bases de datos y la implementación de APIs RESTful.
           </p>
           <a
-            href="https://drive.google.com/uc?export=download&id=1YQ-yzfGnLQPHsmpigKHOm1hshPxZPV_i"
+            href="https://drive.google.com/uc?id=1ofd7PIbqyXL_beEQvm-3ypZRS94J-2SN&export=download"
             className="btn mt-5 cursor-pointer"
           >
             Download Cv
           </a>
         </div>
-        <div className="flex justify-around">
+        <div className="imagenes-me flex justify-around">
           <img src={JsLogo} alt="jslogo" className="w-28 h-28" />
           <img src={ReactLogo} alt="reactlogo" className="w-28 h-28" />
           <img src={NodeLogo} alt="nodelogo" className="w-28 h-28" />
