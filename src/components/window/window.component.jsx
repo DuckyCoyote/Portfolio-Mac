@@ -1,18 +1,23 @@
-import { XCircleIcon } from "@heroicons/react/24/solid";
-import { PlusCircleIcon } from "@heroicons/react/24/solid";
-import { MinusCircleIcon } from "@heroicons/react/24/solid";
+import { XCircleIcon } from '@heroicons/react/24/solid';
+import { PlusCircleIcon } from '@heroicons/react/24/solid';
+import { MinusCircleIcon } from '@heroicons/react/24/solid';
 
-import "./styles.css";
+import './styles.css';
 
-export default function Window({ windowTitle, content, typeWindow, visible, setVisible}) {
-
+export default function Window({
+  windowTitle,
+  content,
+  windowContent,
+  visible,
+  setVisible,
+}) {
   const handleClose = () => {
     setVisible(false);
   };
   return (
     <div>
       {visible && (
-        <div className={"window"}>
+        <div className={'window'}>
           <div className="window-toolbar">
             <div className="window-botones">
               <XCircleIcon
@@ -30,7 +35,7 @@ export default function Window({ windowTitle, content, typeWindow, visible, setV
             </div>
             <div></div>
           </div>
-          <div className="window-content">{content}</div>
+          <div className={windowContent}>{content}</div>
         </div>
       )}
     </div>

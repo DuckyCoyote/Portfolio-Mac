@@ -13,7 +13,7 @@ export default function Me() {
       <img src={boy} alt="gif boy 8bits" className="w-60 h-80" />
       <div className="contenido-me">
         <div className="contact text-center">
-          <h2 className="contact-title">Contact Me</h2>
+          <h2 className="contact-title text_shadows">Contact Me</h2>
           <p>Alejandro Daniel Cruz Hernandez</p>
           <div className="social-links flex flex-col">
             <a
@@ -28,7 +28,7 @@ export default function Me() {
           </div>
         </div>
         <div className="resumen flex flex-col items-center justify-center">
-          <h2 className="resumen-title font-bold text-center m-4">Resumen</h2>
+          <h2 className="resumen-title font-bold text-center m-4 text_shadows" >Resumen</h2>
           <p className="text-justify">
             Como desarrollador web fullstack con experiencia en React y Node,
             cuento con un amplio conjunto de competencias que me permiten crear

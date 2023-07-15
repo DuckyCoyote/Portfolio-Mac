@@ -1,16 +1,16 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
-import Icon from "../Icon/icon.component";
-import Window from "../window/window.component";
-import Me from "../window/me.component";
-import NotePad from "../window/notepad.component";
-import Folder from "../window/folder.component";
+import Icon from '../Icon/icon.component';
+import Window from '../window/window.component';
+import Me from '../window/me.component';
+import NotePad from '../window/notepad.component';
+import Folder from '../window/folder.component';
 
-import folder from "../../assets/folder3.svg";
-import notepad from "../../assets/notepad.png";
-import contact from "../../assets/contact.png";
+import folder from '../../assets/folder3.svg';
+import notepad from '../../assets/notepad.png';
+import contact from '../../assets/contact.png';
 
-import "./styles.css";
+import './styles.css';
 
 export default function Escritorio() {
   const [meVisible, setMeVisible] = useState(true);
@@ -57,7 +57,7 @@ export default function Escritorio() {
           funcion={handleCvOpen}
         />
       </div>
-      
+
       <div className="escritorio-window">
         <Window
           windowTitle="Contact - Me"
@@ -65,6 +65,7 @@ export default function Escritorio() {
           typeWindow="notepad"
           visible={meVisible}
           setVisible={setMeVisible}
+          windowContent="window-content"
         />
         <Window
           windowTitle="Portfolio"
@@ -72,6 +73,7 @@ export default function Escritorio() {
           typeWindow="folder-window"
           visible={portfolioVisible}
           setVisible={setPortfolioVisible}
+          windowContent="folder-window"
         />
         <Window
           windowTitle="NotePad - CV"
@@ -79,6 +81,7 @@ export default function Escritorio() {
           typeWindow="notepad"
           visible={cvVisible}
           setVisible={setCvVisible}
+          windowContent="window-content"
         />
       </div>
     </div>

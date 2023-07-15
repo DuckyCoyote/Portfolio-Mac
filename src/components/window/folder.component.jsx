@@ -1,37 +1,35 @@
-import { React, useState } from "react";
+import { React, useState } from 'react';
 
-import Icon from "../Icon/icon.component";
-import Content from "./content.component";
+import Icon from '../Icon/icon.component';
+import Content from './content.component';
 
-import Picture from "./../../assets/picture.png";
-import Shop from "./../../assets/shop.png";
-import Client from "./../../assets/client.png";
+import FolderIcon from './../../assets/folder_folder.png';
 
-import image1 from "./../../assets/service-1.svg";
-import image2 from "./../../assets/service-2.svg";
-import image3 from "./../../assets/service-3.svg";
+import image1 from './../../assets/service-1.svg';
+import image2 from './../../assets/service-2.svg';
+import image3 from './../../assets/service-3.svg';
 
-import "./styles.folder.css";
+import './styles.folder.css';
 
 const repository = [
   {
     img: image1,
-    url: "https://github.com/DuckyCoyote/Upload-Images",
-    title: "Upload Images API",
+    url: 'https://github.com/DuckyCoyote/Upload-Images',
+    title: 'Upload Images API',
     description:
-      "Esta es una simple API para subir imagenes y mostrarlas en un simple FrontEnd ",
+      'Esta es una simple API para subir imagenes y mostrarlas en un simple FrontEnd ',
   },
   {
     img: image2,
-    url: "https://github.com/DuckyCoyote/React-Cart",
-    title: "React Cart",
-    description: "Ecommerce minimalista con ReactJs y Taiwind CSS",
+    url: 'https://github.com/DuckyCoyote/React-Cart',
+    title: 'React Cart',
+    description: 'Ecommerce minimalista con ReactJs y Taiwind CSS',
   },
   {
     img: image3,
-    url: "https://github.com/DuckyCoyote/API_STORE",
-    title: "Api Ecommerce",
-    description: "Ecommerce API con Nodejs y PostgreSQL",
+    url: 'https://github.com/DuckyCoyote/API_STORE',
+    title: 'Api Ecommerce',
+    description: 'Ecommerce API con Nodejs y PostgreSQL',
   },
 ];
 
@@ -59,22 +57,17 @@ export default function Folder() {
   };
 
   return (
-    <div className="folder-content flex flex-col">
-      <div className="toolbar-folder flex justify-between">
-        <p className="text-xl">4 items</p>
-        <p className="text-xl">464 GB total</p>
-        <p className="text-xl">17 GB avalible</p>
-      </div>
-      <div className="folder flex m-8">
+    <div className="folder ">
+      <div className="folder-content">
         <div className="icons">
           <Icon
             name="Uploader"
-            icon={Picture}
+            icon={FolderIcon}
             clases="folder-icon"
             funcion={handleV1}
           />
-          <Icon name="Ecommerce" icon={Shop} funcion={handleV2} />
-          <Icon name="API" icon={Client} funcion={handleV3} />
+          <Icon name="Ecommerce" icon={FolderIcon} funcion={handleV2} />
+          <Icon name="API" icon={FolderIcon} funcion={handleV3} />
         </div>
         <Content
           img={repository[0].img}

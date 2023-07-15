@@ -5,13 +5,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-:root{
+:root {
   --font-game-play: 'Play', sans-serif;
   --font-game-monda: 'Monda', sans-serif;
   --font-game-press: 'Press Start 2P', cursive;
+
+  --color-primary: #6010ff;
+  --color-secondary: #0080ff;
+  --color-tertiary: #59ff1c;
+  --color-quaternary: #fff23f;
+  --color-quinary: #ff280b;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -20,11 +28,12 @@
   padding: 0;
 }
 
-body{
+body {
   margin: 0;
   padding: 0;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
