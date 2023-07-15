@@ -51,10 +51,22 @@
   }
 }
 
-@media(max-width:450px){
+@media(max-width:540px){
   .contenido-me{
-    width: 250px;
+    width: 100%;
   } 
+  .contact-title{
+    font-size: 30px;
+  }
+
+  .imagenes-me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media(max-width:450px){
+
   .contact-title{
     font-size: 30px;
   }
