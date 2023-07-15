@@ -1,18 +1,17 @@
-import React from "react";
+import React from 'react';
 
-import boy from "../../assets/boy.gif";
-import ReactLogo from "../../assets/react.png";
-import NodeLogo from "../../assets/nodejs.png";
-import JsLogo from "../../assets/js.png";
+import boy from '../../assets/boy.gif';
+import ReactLogo from '../../assets/react.png';
+import NodeLogo from '../../assets/nodejs.png';
+import JsLogo from '../../assets/js.png';
 
-import "./styles.me.css";
+import './styles.me.css';
 
 export default function Me() {
   return (
     <div className="contactme">
-      <img src={boy} alt="gif boy 8bits" className="w-60 h-80" />
       <div className="contenido-me">
-        <div className="contact text-center">
+        <div className="contact text-center flex flex-col items-center">
           <h2 className="contact-title text_shadows">Contact Me</h2>
           <p>Alejandro Daniel Cruz Hernandez</p>
           <div className="social-links flex flex-col">
@@ -26,9 +25,12 @@ export default function Me() {
               https://github.com/DuckyCoyote
             </a>
           </div>
+          <img src={boy} alt="gif boy 8bits" className="w-60 h-80" />
         </div>
         <div className="resumen flex flex-col items-center justify-center">
-          <h2 className="resumen-title font-bold text-center m-4 text_shadows" >Resumen</h2>
+          <h2 className="resumen-title font-bold text-center m-4 text_shadows">
+            Resumen
+          </h2>
           <p className="text-justify">
             Como desarrollador web fullstack con experiencia en React y Node,
             cuento con un amplio conjunto de competencias que me permiten crear
@@ -39,7 +41,8 @@ export default function Me() {
             bases de datos y la implementación de APIs RESTful.
           </p>
           <a
-            href="https://drive.google.com/uc?id=1ofd7PIbqyXL_beEQvm-3ypZRS94J-2SN&export=download"
+            href="https://drive.google.com/file/d/1S8SFY3TWU26kcXIjLPMXB-q4GHWokio7/view?usp=sharing"
+            target="_blank"
             className="btn mt-5 cursor-pointer"
           >
             Download Cv
