@@ -18,7 +18,7 @@ export default function NavBar() {
           <a href="https://github.com/DuckyCoyote" target="_blank">Git</a>
         </li>
         <li>
-          <a href="https://drive.google.com/file/d/1S8SFY3TWU26kcXIjLPMXB-q4GHWokio7/view?usp=sharing" target="_blank">CV</a>
+          <a href="https://drive.google.com/file/d/1CTAp645XVZUzPXxgw25A530OJ4ANLf-T/view?usp=sharing" target="_blank">CV</a>
         </li>
         <li>
           <a href="/">Especial</a>

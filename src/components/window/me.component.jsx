@@ -41,7 +41,7 @@ export default function Me() {
             bases de datos y la implementación de APIs RESTful.
           </p>
           <a
-            href="https://drive.google.com/file/d/1S8SFY3TWU26kcXIjLPMXB-q4GHWokio7/view?usp=sharing"
+            href="https://drive.google.com/file/d/1CTAp645XVZUzPXxgw25A530OJ4ANLf-T/view?usp=sharing"
             target="_blank"
             className="btn mt-5 cursor-pointer"
           >
